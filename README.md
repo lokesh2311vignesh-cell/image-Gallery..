@@ -1,92 +1,16 @@
-# 🖼️ Image Gallery Website
+# React + Vite
 
-A modern and responsive **Image Gallery Website** built using **React.js**. This project provides a simple and visually appealing way to display and browse images in a gallery-style layout.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
+Currently, two official plugins are available:
 
-* 📸 Responsive image gallery
-* 🎨 Clean and modern user interface
-* 📱 Mobile-friendly design
-* ⚡ Built with React.js
-* 🧩 Component-based structure
-* 🖥️ Works across different screen sizes
-* 🎯 Simple and easy-to-use layout
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🛠️ Technologies Used
+## React Compiler
 
-* **React.js** – Frontend library
-* **JavaScript (JSX)** – Application logic and components
-* **CSS3** – Styling and responsive design
-* **HTML5** – Page structure
-* **Vite** – Development and build tool
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Project Structure
+## Expanding the ESLint configuration
 
-```text
-image-gallery/
-│
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-│
-├── index.html
-├── package.json
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone <your-repository-url>
-```
-
-### 2. Navigate to the project folder
-
-```bash
-cd image-gallery
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-The application will be available at the local development URL provided by Vite.
-
-## 📸 Project Preview
-
-Add a screenshot of your image gallery here:
-
-```markdown
-![Image Gallery Preview](./screenshot.png)
-```
-
-## 🎯 Purpose
-
-This project was created to practice and demonstrate **React fundamentals, JSX, CSS styling, responsive layouts, and component-based frontend development**.
-
-## 🔮 Future Improvements
-
-* Add image search functionality
-* Add category-based filtering
-* Add image modal/lightbox view
-* Add image upload functionality
-* Add animations and transitions
-* Add pagination or infinite scrolling
-
-## 👨‍💻 Author
-
-**Your Name**
-
-If you like this project, feel free to ⭐ the repository!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
